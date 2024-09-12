@@ -64,7 +64,7 @@ ksat24/
 Клонируйте репозиторий с кодом на вашу локальную машину:
 
 ```bash
-git clone https://github.com/kefirchk/ksat24
+git clone https://github.com/kefirchk/ksat24.git
 cd ksat24
 ```
 
