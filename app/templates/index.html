@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Form</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</head>
+<body>
+    <form id="dynamic-form">
+        <div id="inputs">
+            <input type="text" name="input_0">
+        </div>
+        <button type="button" id="add-input">Добавить инпут</button>
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>
